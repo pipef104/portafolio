@@ -86,30 +86,19 @@ header {
   background-image: url(./icons/twitter.svg);
 }
 
-/*.mainDescription{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-top: 2.5rem;
-  height: 100%;
-  overflow: hidden;
-}*/
-
 .mainDescription{
- /* margin-top: 6rem;
-  display: row;
-  flex-direction: row;
-  max-height: 44rem;*/
 
   display: flex;
-  flex-direction: row;
-  width: 100%;
-  margin-top: 2.5rem;
+  flex-flow: row wrap;
   justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  min-width: 288px;
+  margin-top: 2.5rem;
 }
 
 .mainDescription img{
-  align-self: flex-start;
+  display: inline-block;
   border-radius: 20px;
   /*margin-left: 150px;
   display: block;*/
@@ -118,7 +107,11 @@ header {
 }
 
 .mainDescription description--text{
-  align-self: flex-end;
+  display: inline-block;
+  width: 100%;
+  min-width: 288px;
+  max-width: 400px;
+  min-height: 160px;
 }
 /*
 .header--container-buttons .link {
