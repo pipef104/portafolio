@@ -62,56 +62,64 @@ header {
   text-decoration: none;
 }
 
-.header--container-buttons .link{
+.header--container-buttons .link {
   display: inline-block;
-  width: 55px; 
+  width: 55px;
   height: 55px;
   margin: 0 auto;
   background-image: url(./icons/linkedin.svg);
 }
 
-.header--container-buttons .git{
+.header--container-buttons .git {
   display: inline-block;
-  width: 55px; 
+  width: 55px;
   height: 55px;
   margin: 0 auto;
   background-image: url(./icons/github2.svg);
 }
 
-.header--container-buttons .twi{
+.header--container-buttons .twi {
   display: inline-block;
-  width: 55px; 
+  width: 55px;
   height: 55px;
   margin: 0 auto;
   background-image: url(./icons/twitter.svg);
 }
 
-.mainDescription{
-
-  display: flex;
-  flex-flow: row wrap;
+.mainDescription {
+  /*display: flex;
+  flex-flow: row;
   justify-content: space-between;
   width: 80%;
   margin: 0 auto;
-  min-width: 288px;
+  min-width: 288px;*/
+
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   margin-top: 2.5rem;
 }
 
-.mainDescription img{
-  display: inline-block;
-  border-radius: 20px;
-  /*margin-left: 150px;
-  display: block;*/
-  transition: transform .6s ease;
-  max-width: 25%;
+.mainDescription--img {
+  width: 120px;
+  max-width: 760%;
+  min-width: 390;
+  height: 120px;
 }
 
-.mainDescription description--text{
+.mainDescription--img img{
+  width: 230%;
+  border-radius: 40px;
+}
+
+.mainDescription .description--text {
   display: inline-block;
   width: 100%;
   min-width: 288px;
   max-width: 400px;
   min-height: 160px;
+  line-height: 120%;
 }
 /*
 .header--container-buttons .link {
