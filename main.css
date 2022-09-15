@@ -113,9 +113,9 @@ header {
 }
 
 .main-div img {
- width: 70%;
+ width: 100%;
  margin: 0 auto;
- max-width: 80%;
+ max-width: 100%;
  border-radius: 40px;
 }
 
